@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Cinzel|Quicksand|Satisfy&display=swap');
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1em;
+  background-color: #020c1b;
+  color: #ffffff;
+}
+
+/* wording over img styling */
+div.main {
+  margin-top: 0;
+  background: url("../images/main2.jpg") no-repeat center center fixed;
+  background-size: cover;
+  height: 45rem;
+  color: #000000;
+  /* -webkit-clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%); */
+  /* clip-path: polygon(0 0, 1600px 0, 1600px 87%, 0 100%); */
+  clip-path: polygon(0 100%, 1600px 87%, 1600px 0, 0 0);
+  -webkit-clip-path: polygon(0 100%, 1600px 87%, 1600px 0, 0 0);
+}
+
+h4.name {
+  font-size: 3rem;
+  color: #000000;
+  margin-top: 2.5rem;
+}
+
+p.job {
+  margin-top: 4rem;
+  font-size: 2rem;
+}
+
+.fadeIn {
+  display: none;
+}
+
+/* #projectsDiv {
+  opacity: .2;
+} */
+
+#messageDiv {
+  margin-bottom: 10em;
+}
+
+
+/* portfolio page styling */
+
+.card .card-action a:not(.btn):not(.btn-large):not(.btn-small):not(.btn-large):not(.btn-floating) {
+  color: #8FC1E3;
+}
+
+.card .card-action {
+  text-align: center;
+}
+
+
+/* projects styling */
+
+
+section#aboutMe {
+  /* background-color: #8D99AE; */
+  background-color: #ffffff;
+  color: #020c1b;
+  -webkit-clip-path: polygon(0 100%, 1600px 87%, 1600px 13%, 0 0%);
+  clip-path: polygon(0 100%, 1600px 89%, 1600px 13%, 0 0%);
+  padding: 50px 0px;
+}
+
+div#backEndDiv {
+  margin-top: 4rem;
+}
+
+h2.sectionTitle {
+  margin-top: 6rem;
+}
+
+div.card {
+  height: 400px;
+  margin: 20px;
+}
+
+span.card-title {
+  font-family: 'Cinzel', serif;
+}
+
+p.reveal-text {
+  color: #020c1b;
+}
+
+
+/* contact styling */
+
+div.contact-item {
+  margin: 20px 0;
+  height: 30px;
+}
+/* 
+i.material-icons {
+  display: inline;
+}
+
+i.fab {
+  font-size: 25px;
+} */
+
+p.contact-info {
+  display: inline;
+  margin: 5px 5px 15px 15px;
+}
+
+
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 600px) {
+  h4.heading {
+    text-align: center;
+  }
+  
+  hr {
+    background-image: linear-gradient(to right,rgba(0, 0, 0, 0) ,#687864, rgba(0, 0, 0, 0));
+  }
+/* 
+  img.main-image {
+    border-radius: 0%;
+  } */
+
+  div.card {
+    height: 475px;
+  }
+}
+
+@media screen and (min-width: 601px) {
+
+  div.card {
+    height: 30rem;
+  }
+
+}
+
+@media screen and (min-width: 993px) {
+  div.card {
+    height: 23rem;
+  }
+
+  div.container, section.container {
+    width: 85%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  div.card {
+    height: 28rem;
+  }
+  /* div.card-image {
+    height: 200px; */
+    /* width: 100%; */
+  /* } */
+}
