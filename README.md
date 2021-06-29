@@ -17,4 +17,4 @@ Some of the technologies which are showcased in my projects include:
 * CSS3
 * Boostrap/Materialize CSS
 
-Explore the projects on my github or view my portfolio at https://emcoraccio.github.io/
+Explore the projects on my github or view my portfolio at https://snappykiwi.github.io/
